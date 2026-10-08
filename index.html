@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WakeFit Support</title>
+<meta name="description" content="Help and support for WakeFit, the iOS alarm that turns off when you exercise.">
+<link rel="icon" href="assets/icon.png">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fafafa;
+    --card-bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #5f5f5f;
+    --border: #e5e5e5;
+    --accent: #d1495b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14141a;
+      --card-bg: #1e1e26;
+      --text: #f2f2f2;
+      --muted: #a8a8b3;
+      --border: #303038;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; }
+  h1 { margin: 0; font-size: 1.75rem; }
+  header p { margin: 4px 0 0; color: var(--muted); }
+  h2 { margin: 40px 0 12px; font-size: 1.25rem; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+  }
+  details {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin-bottom: 8px;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  details p, details ul { margin: 8px 0 4px; color: var(--muted); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.875rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="assets/icon.png" alt="WakeFit app icon">
+    <div>
+      <h1>WakeFit Support</h1>
+      <p>The alarm that only turns off when you exercise.</p>
+    </div>
+  </header>
+
+  <h2>Contact us</h2>
+  <div class="card">
+    <p style="margin:0">Questions, bug reports or feature ideas? Email
+      <a href="mailto:iosmyapps@yahoo.com?subject=WakeFit%20Support">iosmyapps@yahoo.com</a>.
+     </p>
+    <p style="margin:8px 0 0;color:var(--muted)">Helpful details: your iPhone model, your iOS version, and what you were doing when the problem happened.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <details>
+    <summary>How does WakeFit work?</summary>
+    <p>You create an alarm and choose an exercise (push-ups, squats, lunges, plank and more) and a target number of reps or seconds. When the alarm rings, open the app, tap <strong>Start alarm challenge</strong> and do the exercise in front of the front camera. The alarm turns off once you reach your target.</p>
+  </details>
+
+  <details>
+    <summary>What iPhone and iOS version do I need?</summary>
+    <p>WakeFit uses Apple's AlarmKit so alarms can ring even in Silent mode and Focus modes. This requires an iPhone running <strong>iOS 26 or later</strong> with a front camera.</p>
+  </details>
+
+  <details>
+    <summary>The alarm didn't ring. What should I check?</summary>
+    <ul>
+      <li>Make sure the alarm is switched on in the Alarm tab.</li>
+      <li>Allow alarms for WakeFit when iOS asks, or enable it in Settings &rarr; WakeFit.</li>
+      <li>Check that your iPhone volume is not at zero and the alarm sound is set in WakeFit Settings.</li>
+      <li>Restart your iPhone and open WakeFit once after updating the app or iOS.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Why does the alarm ring again after I tap Stop?</summary>
+    <p>This is by design. The system Stop button only silences the alarm for a moment. It rings again within about 20 seconds until you finish the exercise in WakeFit. Open the app and start the challenge to turn it off for good.</p>
+  </details>
+
+  <details>
+    <summary>My reps aren't being counted correctly.</summary>
+    <ul>
+      <li>Prop your phone up so the front camera sees your whole body, or the relevant joints, in good light.</li>
+      <li>Keep some distance from the camera, and make sure nothing blocks your arms and legs.</li>
+      <li>Use full range of motion: go all the way down and all the way back up for each rep.</li>
+      <li>Wear clothes that contrast with the background.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Do you record or upload my camera video?</summary>
+    <p>No. Body-pose detection runs entirely on your iPhone. Camera frames and body keypoints are never saved, uploaded or shared, and the app works offline.</p>
+  </details>
+
+  <details>
+    <summary>How do I change my exercise, target or alarm sound?</summary>
+    <p>Open the gear icon on the Home tab to open Settings. There you can change your nickname, preferred exercise, target reps or seconds, alarm sound and app language. Changes are saved immediately.</p>
+  </details>
+
+  <details>
+    <summary>What is included in WakeFit Pro? How do I restore or cancel?</summary>
+    <p>Pro unlocks alarms, progress tracking and all exercises. Purchases are handled by Apple. To restore a purchase, make sure you're signed in with the same Apple ID and open the paywall in the app, where you'll find <em>Restore purchases</em>.</p>
+    <p>To cancel a subscription, open the iPhone Settings app &rarr; tap your name &rarr; <strong>Subscriptions</strong> &rarr; WakeFit &rarr; <strong>Cancel Subscription</strong>. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+  </details>
+
+  <details>
+    <summary>Where is my data stored? How do I delete it?</summary>
+    <p>Your alarms, exercise history and badges are stored only on your device. There is no account. Deleting the app removes all of it.</p>
+  </details>
+
+  <details>
+    <summary>Which languages are supported?</summary>
+    <p>WakeFit is available in 21 languages. Pick one in Settings &rarr; Language, or leave it on <em>System default</em>.</p>
+  </details>
+
+  <footer>&copy; 2026 WakeFit. All rights reserved.</footer>
+</main>
+</body>
+</html>
